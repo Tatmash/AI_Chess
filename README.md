@@ -1,5 +1,5 @@
-### What is the project about?
-High-level description of the project comes here.
+### What does the program do?
+It's a single player game that allows you to play chess against the machine.
 ### How to run the code?
 
 You could "checkout" the project with your preferred IDEA or alternatively:
@@ -12,20 +12,26 @@ https://docs.oracle.com/javase/10/install/toc.htm
 "javac Main.java" 
 5. Once the project has been compiled, type 
 "java Main" 
-to run the program. The game will begin in your command line.
+to run the program.
 6. Have fun :)
 
 ### The engine.
-Description of the engine comes here. Searching algorithms, decision tree, etc..
+The engine consists of a data-structure that represents the game and a decision making mechanism.
+Decision making happens by searching a decision tree using the MiniMax and Alpha-Beta Pruning algorithms.
 ### The GUI.
-Description of java swing comes here, followed by a pic/gif as illustration.  
+The GUI was built in Java Swing which is a lightweight GUI toolkit which has a wide variety of widgets for building optimized window based applications.
+This is how the GUI looks at this stage.:   
+  
+  
 ![gui gif](images/chess.gif)
 
-### Areas for possible developement:
+### Further developement:
 There is plenty of room for improvement. A few of the ideas I have in mind:
-* Implementing cool features.
-* Expanding the test coverage to 100%.
-* Implementing other search algorithms.
-* Etc...
+* Building a test suite.
+* Adding a two player feature human vs human.
+* Displaying the "taken pieces" on a new, separate section of the window.
+* Implementing other search algorithms/ decision making mechanisms and adding a machine vs machine feature.
+* Implementing features that help analyse the game, such as: recording all moves.
+* Implementing a "give me a hint" feature when the machine suggests a move to the user if needed.
 
 If you would like to contribute to this project you are very welcome to do so. Please open an issue so that we can discuss your idea.
