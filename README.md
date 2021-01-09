@@ -25,7 +25,7 @@ This is how the GUI looks at this stage.:
   
 ![gui gif](images/chess.gif)
 
-### Further developement:
+### Further development:
 There is plenty of room for improvement. A few of the ideas I have in mind:
 * Building a test suite.
 * Adding a two player feature human vs human.
